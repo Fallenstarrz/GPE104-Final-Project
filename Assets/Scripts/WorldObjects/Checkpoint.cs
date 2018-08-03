@@ -27,9 +27,12 @@ public class Checkpoint : MonoBehaviour
     {
         if (other.CompareTag ("Player"))
         {
-            GameManager.instance.lastCheckpoint = this.gameObject.transform.position;
-            anim.Play("CheckpointActive");
-            soundMaker.PlayOneShot(checkpointSound, soundVolume);
+            if (GameManager.instance.lastCheckpoint != this.gameObject.transform.position)
+            {
+                GameManager.instance.lastCheckpoint = this.gameObject.transform.position;
+                anim.Play("CheckpointActive");
+                soundMaker.PlayOneShot(checkpointSound, soundVolume);
+            }
         }
     }
 }

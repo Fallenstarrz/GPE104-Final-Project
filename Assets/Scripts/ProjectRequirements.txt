@@ -41,5 +41,4 @@ Maybe Later:
 
 TODO B4 Due:
 	Add Tutorial
-	Finish Credits
 	Polish Victory / Loss Scenes

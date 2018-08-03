@@ -444,6 +444,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114243183666257682, guid: 3e9c4177c0e1bd946ac3095455b7c5f4,
+        type: 2}
+      propertyPath: scoreToAdd
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3e9c4177c0e1bd946ac3095455b7c5f4, type: 2}
   m_IsPrefabParent: 0
@@ -786,7 +791,7 @@ Prefab:
     - target: {fileID: 114243183666257682, guid: 3e9c4177c0e1bd946ac3095455b7c5f4,
         type: 2}
       propertyPath: scoreToAdd
-      value: 50
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1041429239275666, guid: 3e9c4177c0e1bd946ac3095455b7c5f4, type: 2}
       propertyPath: m_Name
@@ -1189,7 +1194,7 @@ Prefab:
     - target: {fileID: 114243183666257682, guid: 3e9c4177c0e1bd946ac3095455b7c5f4,
         type: 2}
       propertyPath: scoreToAdd
-      value: 50
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1041429239275666, guid: 3e9c4177c0e1bd946ac3095455b7c5f4, type: 2}
       propertyPath: m_Name
@@ -1360,6 +1365,11 @@ Prefab:
     - target: {fileID: 1041429239275666, guid: 3e9c4177c0e1bd946ac3095455b7c5f4, type: 2}
       propertyPath: m_Name
       value: Coin (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114243183666257682, guid: 3e9c4177c0e1bd946ac3095455b7c5f4,
+        type: 2}
+      propertyPath: scoreToAdd
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3e9c4177c0e1bd946ac3095455b7c5f4, type: 2}
@@ -2303,7 +2313,7 @@ Prefab:
     - target: {fileID: 114243183666257682, guid: 3e9c4177c0e1bd946ac3095455b7c5f4,
         type: 2}
       propertyPath: scoreToAdd
-      value: 50
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3e9c4177c0e1bd946ac3095455b7c5f4, type: 2}
@@ -3283,7 +3293,7 @@ Prefab:
     - target: {fileID: 114243183666257682, guid: 3e9c4177c0e1bd946ac3095455b7c5f4,
         type: 2}
       propertyPath: scoreToAdd
-      value: 50
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1041429239275666, guid: 3e9c4177c0e1bd946ac3095455b7c5f4, type: 2}
       propertyPath: m_Name
@@ -4062,6 +4072,11 @@ Prefab:
       propertyPath: m_Name
       value: Coin (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114243183666257682, guid: 3e9c4177c0e1bd946ac3095455b7c5f4,
+        type: 2}
+      propertyPath: scoreToAdd
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3e9c4177c0e1bd946ac3095455b7c5f4, type: 2}
   m_IsPrefabParent: 0
@@ -4504,6 +4519,11 @@ Prefab:
     - target: {fileID: 1041429239275666, guid: 3e9c4177c0e1bd946ac3095455b7c5f4, type: 2}
       propertyPath: m_Name
       value: Coin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114243183666257682, guid: 3e9c4177c0e1bd946ac3095455b7c5f4,
+        type: 2}
+      propertyPath: scoreToAdd
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3e9c4177c0e1bd946ac3095455b7c5f4, type: 2}

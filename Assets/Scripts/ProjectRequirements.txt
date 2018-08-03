@@ -13,7 +13,7 @@ Project 2:
 	(DONE) OnTriggerEnter2D()
 	(DONE) Instantiate()
 	(DONE) Destroy after Delay(Lifespan)
-	Random.Range()
+	(DONE) GameManager controls GameLogic (Lives/Spawns/GameOver)
 
 Project 3:
 	(DONE) Canvas Screen Space
@@ -23,24 +23,23 @@ Project 3:
 	(DONE) Physics2D.Raycast()
 
 Project 4:
-	Multiple Scenes
+    (DONE) Multiple Scenes
 	(DONE) Player affected by gravity
 	(DONE) Detect if player is grounded
 	(DONE) Music
-	Missing Something here (SFX probably) or Checkpoints
-	Checkpoints
+	(DONE) Checkpoints
 
-TODO:
-Build Second and Third Scenes
-Add traps for second and third scene
-Add GUI
-Add Enemies
-	I want at least 2, same controller, different pawns, different attacks, or movement, not sure yet what I want from them
-Add WorldSpace Widgets for enemy HP
-Add Tutorial
-Add Checkpoints
-Add Player Attacks
-	must instantiate fx with trigger
-	must use random.range for dmg
-Refactor controller to  use pawns
-Add vendor to spend points for extra lives... Maybe?
+Maybe Later:
+	Add Enemies
+		I want at least 2, same controller, different pawns, different attacks, or movement, not sure yet what I want from them
+	Add WorldSpace Widgets for enemy HP
+	Add Player Attacks
+		must instantiate fx with trigger
+		must use random.range for dmg
+	Refactor controller to  use pawns
+	Add vendor to spend points for extra lives... Maybe?
+
+TODO B4 Due:
+	Add Tutorial
+	Finish Credits
+	Polish Victory / Loss Scenes

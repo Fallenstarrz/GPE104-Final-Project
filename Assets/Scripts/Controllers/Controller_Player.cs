@@ -14,6 +14,7 @@ public class Controller_Player : Controller
 
     //Sounds
     public AudioClip JumpSound;
+    public AudioClip deathSound;
     public float soundVolume;
 
     // Movement Variables
@@ -134,6 +135,7 @@ public class Controller_Player : Controller
     {
         isDead = true;
         anim.Play("knightdead");
+        soundMaker.PlayOneShot (deathSound, soundVolume);
         Destroy(this.gameObject, 2);
     }
 }

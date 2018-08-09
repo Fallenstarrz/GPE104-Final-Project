@@ -2798,6 +2798,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 212858827971107608, guid: bac9b73865bc7ff47952a90316cc0694,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bac9b73865bc7ff47952a90316cc0694, type: 2}
   m_IsPrefabParent: 0
@@ -20037,6 +20042,11 @@ Prefab:
         type: 2}
       propertyPath: m_Motor.m_MotorSpeed
       value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 212858827971107608, guid: bac9b73865bc7ff47952a90316cc0694,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bac9b73865bc7ff47952a90316cc0694, type: 2}

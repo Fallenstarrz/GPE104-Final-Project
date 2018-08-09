@@ -9380,7 +9380,7 @@ Prefab:
     - target: {fileID: 114259641644111216, guid: 0e17af459437ea842979ff3e6dad6526,
         type: 2}
       propertyPath: levelNumberToLoad
-      value: 3
+      value: 99
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0e17af459437ea842979ff3e6dad6526, type: 2}
@@ -11365,7 +11365,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -11389,7 +11389,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!4 &799279887
 Transform:
   m_ObjectHideFlags: 0

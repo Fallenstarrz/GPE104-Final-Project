@@ -23,7 +23,7 @@ Project 3:
 	(DONE) Physics2D.Raycast()
 
 Project 4:
-    (DONE) Multiple Scenes
+    	(DONE) Multiple Scenes
 	(DONE) Player affected by gravity
 	(DONE) Detect if player is grounded
 	(DONE) Music

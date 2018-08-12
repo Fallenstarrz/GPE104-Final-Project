@@ -5,11 +5,13 @@ using UnityEngine.UI;
 
 public class GUI_Lives : MonoBehaviour
 {
+    // images of lives for GUI
     public Image life1;
     public Image life2;
     public Image life3;
 	
 	// Update is called once per frame
+    // disable lives as we lose them
 	void Update ()
     {
 		switch (GameManager.instance.playerLives)
@@ -34,6 +36,7 @@ public class GUI_Lives : MonoBehaviour
             }
         }
 	}
+    // reset lives to full
     public void resetLives()
     {
         life1.enabled = true;

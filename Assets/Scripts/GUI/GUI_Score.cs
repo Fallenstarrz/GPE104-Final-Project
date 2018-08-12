@@ -10,6 +10,7 @@ public class GUI_Score : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        // set score text
         scoreNum.text = GameManager.instance.score.ToString();
 	}
 }

@@ -28,17 +28,3 @@ Project 4:
 	(DONE) Detect if player is grounded
 	(DONE) Music
 	(DONE) Checkpoints
-
-Maybe Later:
-	Add Enemies
-		I want at least 2, same controller, different pawns, different attacks, or movement, not sure yet what I want from them
-	Add WorldSpace Widgets for enemy HP
-	Add Player Attacks
-		must instantiate fx with trigger
-		must use random.range for dmg
-	Refactor controller to  use pawns
-	Add vendor to spend points for extra lives... Maybe?
-
-TODO B4 Due:
-	Add Tutorial
-	Polish Victory / Loss Scenes

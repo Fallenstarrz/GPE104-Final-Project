@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneSwitcher : MonoBehaviour
 {
+    public GameObject controlsMenu;
+    public GameObject mainMenu;
+
     // Load scenes, integers are decided in the build settings
     public void LoadMainMenu()
     {
@@ -38,5 +42,15 @@ public class SceneSwitcher : MonoBehaviour
     {
         Debug.Log("I quit this game!");
         Application.Quit();
+    }
+    public void enableControlMenu()
+    {
+        controlsMenu.SetActive (true);
+        mainMenu.SetActive (false);
+    }
+    public void enableMainMenu()
+    {
+        controlsMenu.SetActive (false);
+        mainMenu.SetActive (true);
     }
 }
